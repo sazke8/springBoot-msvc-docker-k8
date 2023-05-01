@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7aeca8d2-4c3a-4b16-ae77-0fba14e4622b" name="Changes" comment="add maven">
+    <list default="true" id="a6000ffc-5ad6-4b3d-8e15-4d9f92367160" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -14,128 +15,41 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-        <option value="Interface" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="PREVIOUS_COMMIT_AUTHORS">
-      <list>
-        <option value="Brandon &lt;brandongd8@gmail.com&gt;" />
-        <option value="sazke" />
-      </list>
-    </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/msvc-cursos" />
-    <option name="ROOT_SYNC" value="SYNC" />
-  </component>
-  <component name="IlluminatedCloudWorkspaceSettings">
-    <option name="projectWorkspaceSettings">
-      <ProjectWorkspaceSettings>
-        <option name="anonymousApexSettings">
-          <AnonymousApexSettings>
-            <option name="savedDocuments">
-              <list>
-                <AnonymousApexSavedDocument>
-                  <option name="connectionName" value="sandbox" />
-                  <option name="connectionType" value="MDAPI" />
-                  <option name="name" value="Anonymous Apex 1" />
-                </AnonymousApexSavedDocument>
-              </list>
-            </option>
-          </AnonymousApexSettings>
-        </option>
-        <option name="connectionWorkspaceSettings">
-          <map>
-            <entry key="New Connection">
-              <value>
-                <ConnectionWorkspaceSettings />
-              </value>
-            </entry>
-            <entry key="Sandbox">
-              <value>
-                <ConnectionWorkspaceSettings />
-              </value>
-            </entry>
-            <entry key="sandbox">
-              <value>
-                <ConnectionWorkspaceSettings />
-              </value>
-            </entry>
-          </map>
-        </option>
-        <option name="soqlQuerySettings">
-          <SoqlQuerySettings>
-            <option name="savedDocuments">
-              <list>
-                <SoqlQuerySavedDocument>
-                  <option name="body" value="SELECT FIELDS(STANDARD) from Account&#10;" />
-                  <option name="name" value="SOQL Query 1" />
-                </SoqlQuerySavedDocument>
-              </list>
-            </option>
-          </SoqlQuerySettings>
-        </option>
-      </ProjectWorkspaceSettings>
-    </option>
-  </component>
-  <component name="JiraServerManager">
-    <selected>-1</selected>
-    <servers />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2OfjFm8fTqt0LsLRRfnHubSABVJ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
+  <component name="ProjectId" id="2PCxFS2BgQS7X2SlVqN5UceX0J0" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/ultron/Documents/DockerK8SpringBoot/k8/msvc-cursos",
+    "last_opened_file_path": "/Users/ultron/Documents/springBoot-msvc-docker-k8",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "terminal",
-    "spring.configuration.checksum": "c761ebaf122659dde39372f61a82707f",
     "vue.rearranger.settings.migration": "true"
-  },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "directory",
-      "module",
-      "repository"
-    ]
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/msvc-cursos" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.sazke.springcloud.msvccursos.models" />
-    </key>
-  </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -144,16 +58,29 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.MsvcCursosApplication">
-    <configuration name="MsvcCursosApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="msvc-cursos" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sazke.springcloud.msvccursos.MsvcCursosApplication" />
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="k8 (1)" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MsvcUsuariosApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="k8 (1)" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MsvcCursosApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="msvc-cursos" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.aguzman.springcloud.msvc.cursos.MsvcCursosApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MsvcUsuariosApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="msvc-usuarios" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sazke.springcloud.msvcusuarios.MsvcUsuariosApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.aguzman.springcloud.msvc.usuarios.MsvcUsuariosApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -162,81 +89,16 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7aeca8d2-4c3a-4b16-ae77-0fba14e4622b" name="Changes" comment="" />
-      <created>1681958431179</created>
+      <changelist id="a6000ffc-5ad6-4b3d-8e15-4d9f92367160" name="Changes" comment="" />
+      <created>1682974762131</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1681958431179</updated>
-      <workItem from="1681958432616" duration="25366000" />
-      <workItem from="1682100515698" duration="14849000" />
-      <workItem from="1682277422082" duration="2487000" />
-      <workItem from="1682365528202" duration="3568000" />
-      <workItem from="1682391157901" duration="8207000" />
-      <workItem from="1682461501861" duration="6303000" />
-      <workItem from="1682529508274" duration="6346000" />
-      <workItem from="1682616197462" duration="945000" />
-      <workItem from="1682619356724" duration="1868000" />
-      <workItem from="1682634712628" duration="3115000" />
-      <workItem from="1682890259441" duration="15769000" />
-      <workItem from="1682907960723" duration="10868000" />
+      <updated>1682974762131</updated>
+      <workItem from="1682974763915" duration="4437000" />
     </task>
-    <task id="LOCAL-00001" summary="All working with Docker">
-      <created>1682952766296</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1682952766296</updated>
-    </task>
-    <task id="LOCAL-00002" summary="add maven">
-      <created>1682952823406</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1682952823406</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="BEK_SORT_TYPE" value="1" />
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="All working with Docker" />
-    <MESSAGE value="add maven" />
-    <option name="LAST_COMMIT_MESSAGE" value="add maven" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/msvc-cursos/src/main/java/com/sazke/springcloud/msvccursos/controllers/CursosController.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/msvc-cursos/src/main/java/com/sazke/springcloud/msvccursos/services/interfaces/CursoServiceImpl.java</url>
-          <line>39</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
   </component>
 </project>
