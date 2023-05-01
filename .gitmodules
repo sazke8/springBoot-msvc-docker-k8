@@ -1,0 +1,2 @@
+[submodule "msvc-cursos"]
+	url = https://github.com/sazke8/springBoot-msvc-docker-k8.git
