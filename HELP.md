@@ -1,30 +1,22 @@
-# Getting Started
+# Microservices | Docker | Kubernetes
 
-### Reference Documentation
 
-For further reference, please consider the following sections:
+### Run MySQL
+docker run -p 3306:3306 -d  --name dockerMysql --network spring -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=msvc_usuarios mysql
 
-* [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
-* [Spring Boot Maven Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/3.0.5/maven-plugin/reference/html/)
-* [Create an OCI image](https://docs.spring.io/spring-boot/docs/3.0.5/maven-plugin/reference/html/#build-image)
-* [OpenFeign](https://docs.spring.io/spring-cloud-openfeign/docs/current/reference/html/)
-* [Spring Boot DevTools](https://docs.spring.io/spring-boot/docs/3.0.5/reference/htmlsingle/#using.devtools)
-* [Spring Data JPA](https://docs.spring.io/spring-boot/docs/3.0.5/reference/htmlsingle/#data.sql.jpa-and-spring-data)
-* [Spring Web](https://docs.spring.io/spring-boot/docs/3.0.5/reference/htmlsingle/#web)
 
-### Guides
+### Run PostgreSQL
+docker run -p 5432:5432 -d  --name dockerPostgres --network spring -e POSTGRES_PASSWORD=root -e POSTGRES_USER=root -e POSTGRES_DB=msvc_cursos postgres
 
-The following guides illustrate how to use some features concretely:
+### Build image
 
-* [Accessing Data with JPA](https://spring.io/guides/gs/accessing-data-jpa/)
-* [Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/)
-* [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
-* [Building REST services with Spring](https://spring.io/guides/tutorials/rest/)
-* [Accessing data with MySQL](https://spring.io/guides/gs/accessing-data-mysql/)
+docker build -t usuarios . -f ./msvc-usuarios/Dockerfile
 
-### Additional Links
+docker build -t cursos . -f ./msvc-cursos/Dockerfile 
+ ### Build network
+docker network create spring
 
-These additional references should also help you:
+### Run containers
+docker run -p 8001:8001 -d --rm --name msvc-usuarios --network spring usuarios
 
-* [Declarative REST calls with Spring Cloud OpenFeign sample](https://github.com/spring-cloud-samples/feign-eureka)
-
+docker run -p 8002:8002 -d --rm --name msvc-cursos --network spring cursos
